@@ -1,4 +1,4 @@
-? is a simple and useful php app for extract html source code of URLs that limited in your ISP or country or see error 403 because of your location. You can  put this file on your host or server (placed in another country or use another ISP), enter the URL and see html source code.
+**myShamefulBoy** is a simple and useful php app for extract html source code of URLs that limited in your ISP or country or see error 403 because of your location. You can  put this file on your host or server (placed in another country or use another ISP), enter the URL and see html source code.
 
 On your host
 ---------------
@@ -8,10 +8,10 @@ On your host
 * Now your website is ready. Type http://src.yourdomain.com in your browser and Enter the URL.
 
 Technical notice
------------
-? get `url` with `POST` method. For example if you have a robot for parsing a website, you can send URL address with `POST` method to your new website http://src.yourdomain.com with name of `url` . 
+--------------------
+**myShamefulBoy** get `url` with `POST` method. For example if you have a robot for parsing a website, you can send URL address with `POST` method to your new website http://src.yourdomain.com with name of `url` . 
 
-In python 3
+**Sample code in python 3 for using your new website:**
 
 ```python
 import urllib.request
@@ -25,4 +25,3 @@ request = urllib.request.Request(app)
 src = urllib.request.urlopen(request, data).read().decode('utf8')
 print(src)
 ```
-

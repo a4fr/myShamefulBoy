@@ -1,4 +1,4 @@
-**myShamefulBoy** is a simple and useful php app for extract html source code of URLs that limited in your ISP or country or see error 403 because of your location. You can  put this file on your host or server (placed in another country or use another ISP), enter the URL and see html source code.
+**myShamefulBoy** is a simple and useful php app for extract html source code of URLs that limited in your ISP or country or see error 403 because of your location. You can  put this file on your host or server (placed in another country or use another ISP), enter the URL and see html source code. Like this http://src.ali-najafi.ir/ .
 
 On your host
 ---------------
